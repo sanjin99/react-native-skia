@@ -26,7 +26,7 @@ const MaskFilterDemo = () => {
   return (
     <Canvas style={{ flex: 1}}>
       <Circle c={vec(128)} r={128} color="lightblue">
-        <BlurMask blur={20} style="normal" />
+        <BlurMask blur={5} style="normal" />
       </Circle>
     </Canvas>
   );
